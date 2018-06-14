@@ -1,0 +1,34 @@
+{
+  "name": "generate-quiz",
+  "version": "1.0.0",
+  "description": "Generates a quiz from an array of questions. Supports multiple correct answers, multiple quizes on one page, randomizing the order of questions and answers, highlighting correct and incorrect answers. Made for a school project.",
+  "author": "ol-web",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "repository": "https://github.com/oL-web/generate-quiz",
+  "scripts": {
+    "dev": "parcel serve -d example/dist example/src/index.html",
+    "build": "parcel build --no-cache --public-url \".\" -d example/dist example/src/index.html"
+  },
+  "keywords": [
+    "quiz",
+    "quiz generator",
+    "generate quiz",
+    "generate-quiz",
+    "quiz-generator"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "node-sass": "^4.9.0",
+    "parcel-bundler": "^1.8.1",
+    "parcel-plugin-clean-dist": "0.0.6"
+  },
+  "dependencies": {
+    "generate-quiz": "^1.0.0",
+    "html-entities": "^1.2.1",
+    "lodash": "latest",
+    "superagent": "latest"
+  }
+}
